@@ -1,0 +1,225 @@
+ PRIMEIROS CODGOS
+<head> - cabeça do site ( parte de cima.
+
+<body> - e o corpo do site. ( todo o resto da pagina.
+
+<title> e para digitar o titulo principal.
+<h1> - para digitar o sob titulo 
+<hr> para fazer um sublinhado no titulo ou na frase.
+<p> para digitar junto com o sub titulo 
+_________________________________
+
+Paragrafos e Quebras
+
+<br> - usado para fazer a quebra de paragrafos.
+
+&lt - menor que ( lees than )
+&gt - maior que ( greanther than)
+são uteis para que apareca as tags  no texto no proprio navegador.
+
+________________________________
+Aula 5
+
+COLOCANDO SIMBULOS E EMOJIS NO SITE
+
+<!-- comentarios--> Para por comentarios no codgos.
+
+&reg; - simbulo de R
+&copy; - simbulo de copi (C)
+&trade; - TM marca registrada
+
+Para adicionar emojions acessar site emojipedia.
+codgo para adicionar &#x (1F643)que seria o codgo dos emoji.
+_________________________________
+Aula 6
+
+COLOCANDO FOTOS E IMAGENS NO SITE
+
+imagens em pmg são imagens transparentes
+
+imagens em jpeg são imagens qualidade
+_________________________________
+
+Aula 7
+
+INSERINDO IMAGEM no site
+
+control com espaço - ele dara as opçoes de imagens salvas.
+_________________________________
+Aula 8
+
+COLOCANDO ICONE NA PAG
+
+ter uma imagem formato icone
+pode baixa em favicon.io
+
+nos codgos digitar link e por em favicon
+________________________________
+Aula 9
+
+Hierarquia de titulos
+
+h1 titulo principal
+h2 sub titulos
+h3 seriam os topicos dentro dos sob titulos.
+_________________________________
+aula 10
+
+Semântica na HTML5 é importante!
+
+Formatação de textos  
+
+<address> ela fica em formato link para abrir um endereço por exemplo.
+
+<u> deixa sublinhado
+
+<style>
+      body
+         background-colo: a cor desejada em ingles.
+
+
+<b> usado para deixar em negrito. ( não semantica)
+ou também
+<strong> usado para deixa em negrito. (semantica)
+
+<I> deixa em italico. ( não semantica)
+
+<em> deixa em italico.( semantica)
+
+_______________________________
+
+FORMATAÇÕES ADICIONAIS EM HTML
+TAGS PARA FACILITAR
+
+<mark> para deixa o fundo marcado.
+
+para deixar de outra cor, precisa usar style="background-color:nome da cor"> dentro do mark
+
+usando um <style>
+              mark{
+                  back
+
+da para mudar a cor de mais de um mark com a mesma cor para ambos.
+
+big para textos grandes
+small para textos pequenos.
+
+<del> para deixa uma linha no meio do texto.
+
+<ins> para deixa ele sublinhado tambem
+
+<u> para deixa ele sublinhado também ( não semantica)
+
+<sup> para deixa ele elevado, flutuando como 2 alquadrado.
+
+<sub> para deixa para baixo como h2O.
+
+
+_____________________________
+
+Ordenação de listas
+
+<ua> listas nao ordenadas dentro da <ol>
+
+codgo <type> disc circle square
+
+<li> para ficar em lista e organizado.
+
+dentro de <ol>
+
+codgo <type> da opçoes de como quer ser orgazizado com A a I i 1
+
+
+lista de definições
+termo 
+
+dt- termo
+dd- descrições
+
+______________________________
+
+LINKS E ANCORAS
+
+LINKS EXTERNOS
+
+<a> - Para adicionar link, tal como youtube, facebook e etc...
+
+usando <target=_"black"real"externo"
+
+faz abrir olink em uma nova aba de navegação.
+
+exemplo 
+
+"https://www.youtube.com/watch?v=LeOVXQDsAIY"target="_blank" rel= " external "> repositorio publico
+        no githab
+
+LINKS INTERNOS
+
+usando Para voltar para a segunda pag e usado o <rel="next">
+
+para adicionar a ancora basta digitar <a> ou para ser adicionado o link interno ou externo.
+
+rel="nofollow" ( Não siga )
+
+target_self para abrir na pâgina atual.
+
+usando o ../ ele voltar para uma pag de fora da pasta.
+
+_______________________________
+
+aula 
+
+IMAGENS E DINÂMICAS
+
+<picture> usado para adicionar imagens de varios tamanhos para diferentes aparelhos.
+
+<soure idia type> usado dentro de picture para adicionar mais de uma tamanho de foto para varios aparelhos e modificar no momento de abrir.
+
+ <audio src="" controls autoplay></audio>
+
+E usado para por audios no site.
+usados para formato mp3 mav e ogg
+
+
+COLOCANDO VIDEOS INTERNOS.
+
+formatos padrões mp4 ogg webm
+
+ <video src="" width ( o tamanho que vc deseja do video) contrls ( para adicionar o controle de play pause )></video> e usado para adicionar videos ao site.
+
+usando source  dentro de videos para adicionar 2 ou mais videos no site de mais de um formato.
+______________________________
+
+capitulo 12 começo de css 
+
+<style> e baixo do titulodo site  2 opção de css.
+
+usando o Style="background-color: 
+vc ecida a cor desejada das letras
+
+usando o style =" font-family 
+vc edita a fonte das letras.
+
+usando style text-align 
+vc organiza a fonte
+
+font-size: 20px; usado para modificar o tamanho do texto.
+
+
+3 opção de css externo
+
+quando criamos o arquivo css
+usamos a regra @charset "UTF-8"; para não dar problemas co acentuações.
+
+
+
+
+
+
+
+
+
+
+
+
+

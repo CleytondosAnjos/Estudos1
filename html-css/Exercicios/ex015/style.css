@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+bady {
+    background-color: rgb(221, 149, 205);
+    font-size: 20px;
+}
+h1{
+    color: darkcyan
+    background-color black;
+}
+h2{
+    color: rgb(197, 241, 203);
+}
+p {
+    text-align: justify;
+}

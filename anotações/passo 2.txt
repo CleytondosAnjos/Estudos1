@@ -1,0 +1,179 @@
+MODELO DE CAIXAS AULA 16
+
+ANATOMIA DE UMA CAIXA.
+
+altura - heigth
+largura -width
+border - e a linha que circula oconteudo.
+padding - e preenchimento
+margin - preenchimento externo
+autline - contorno ou traçado fora do elemento.
+
+TIPOS DE CAIXA
+BOX-level- sempre ocupa um espaço total de 100% pulando para linha de baixo.
+
+muito usado div,h1 a h6,p main,header,nav,article, aside,footer,form,video.
+
+Inline-level - ira criar uma caixa completando a pagna, na mesma linha, não quebra linha.
+
+muito usado span,a, code, small, strong, em, sup-sub, label,button,input, select
+
+font-family - editor de foontes
+
+@charset"UTF-8 - uma regra universão.
+
+width: - para a largura 
+
+padding: - O preenchimento é usado para criar espaço ao redor do conteúdo de um elemento, dentro de qualquer borda definida
+
+margin: auto; - deixa o conteudo centralizado.
+
+border-radius: - para aredondar as bordas.
+
+box -shaldor - para adicionar sombra.
+
+______________________________
+CSS
+Anatomia de tipos
+
+medidas absolutas
+cm,mm, in( polegada) px, pq(paica.
+
+
+medidas relativas
+em, ex,rem,vn,vh,%
+
+• font-style ( italico negrito sublinhado e etc.)
+
+• font-variant
+
+• font-weight ( deixa mais pesado ou mais leve)
+
+• font-size/line-height ( o tamanho da fonte
+
+• font-family ( tipo da fonte )
+
+Podemos usar a <shorthand> font que vai simplificar tudo a baixo.
+
+font: itali bold1em ariel, helvetca, sans-serif;
+
+• font-style
+• font-variant
+• font-weight
+• font-size/line-height
+• font-family
+obs tem que ser exatamentenessa ordem a cima.
+
+__________________
+Descobrindo a fonte de outros sites.
+
+alinhamento de textos
+text-align;
+center= centro
+rigth; lado direito
+justfy; alinhado nas 2 pontas.
+text- inden: deixa o começo do texto mais para frente espaçado.
+__________________________
+USANDO O ID COM CSS
+
+id dar uma identidade.
+id="principal" deixa ele para editar separadamente dos outros.
+
+class- pode ussar varias vezes deixando ele com nome facil 
+
+height: altura
+width: largura
+
+div:hover mudarar quando pasar o mouse em cima de onde deicamos marcado o div:hover
+
+SELETORES PERSONALIZADOS
+
+# ID
+. CLASS
+:PSEUDO-CLASS
+:: PSEUDO-ELEMENT
+> CLILDREN
+____________________________
+MODELANDO CAIXAS
+ 
+superior (-top)
+direita (-right)
+inferior (-bottom)
+esquerda (-left)
+
+SIMPLIFICANDO
+padding: 
+margin:
+
+Para centralizar uma caixa, use a seguinte declaração no seu
+seletor: margin: auto;
+
+BLOCK- LEVEL
+<address> <article> <aside> <blockquote> <canvas> <dd>
+<div> <dl> <dt> <fieldset> <figcaption> <figure>
+<footer> <form> <h1> - <h6> <header> <hr> <li>
+<main> <nav> <noscript> <ol> <p> <pre>
+<section> <table> <tfoot> <ul> <video>
+
+
+inline-level 
+
+listei alguns elementos inline-level usados pela HTML:
+<address> <article> <aside> <blockquote> <canvas> <dd>
+<div> <dl> <dt> <fieldset> <figcaption> <figure>
+<footer> <form> <h1> - <h6> <header> <hr> <li>
+<main> <nav> <noscript> <ol> <p> <pre>
+<section> <table> <tfoot> <ul> <video>
+<a> <abbr> <acronym> <b> <bdo> <br>
+<button> <cite> <code> <dfn> <em> <i>
+<img> <input> <kbd> <label> <map> <object>
+<output> <q> <samp> <script> <select> <small>
+<span> <strong> <sub> <textarea> <tt> <var>
+________________________
+
+Header
+Cria áreas relativas a cabeçalhos
+
+Nav
+Define uma área que possui os links de navegação pela
+estrutura de páginas que vão compor o website. Um
+<nav> pode estar dentro de um <header>.
+
+Main
+É um agrupador usado para delimitar o conteúdo
+principal do nosso site. Normalmente concentra as
+seções, artigos e conteúdos periféricos.
+
+Section
+Cria seções para sua página. Ela pode conter o conteúdo diretamente no seu corpo ou
+dividir os conteúdos em artigos com conteúdos específicos. Segundo a documentação
+oficial da W3C, “uma seção é um agrupamento temático de conteúdos, tipicamente
+com um cabeçalho”
+
+Article
+Um artigo é um elemento que vai conter um conteúdo que pode ser lido de forma
+independente e dizem respeito a um mesmo assunto. Podemos usar um <article>
+para delimitar um post de blog ou fórum, uma notícia, etc
+
+Aside
+Delimita um conteúdo periférico e complementar ao conteúdo principal de um artigo
+ou seção. Normalmente um conteúdo <aside> está posicionado ao lado de um
+determinado texto ou até mesmo no meio dele, exatamente como fizemos no bloco de
+texto apresentado anteriormente, falando sobre “MÚLTIPLOS NÍVEIS”.
+
+Footer
+Cria um rodapé para o site inteiro, seção ou artigo. É um conteúdo que não faz parte
+diretamente do conteúdo nem é um conteúdo periférico
+
+                 
+
+
+
+
+
+
+
+
+
+
+
